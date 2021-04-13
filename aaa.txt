@@ -1,0 +1,11 @@
+asdasdasd
+   <div class="d2h-file-header sc-x-diff-viewer" style={{ position: 'relative' }}>
+          {this.foldable ? this.getChevronSvg() : ''}
+          <span class={'diff-icon ' + this.diffIconMap.bkgClass}>{this.diffIconMap.content}</span>
+          <span class="d2h-file-name sc-x-diff-viewer">{this.diffName}</span>
+          <span class="diff-line add-line">{this.addedLines}</span>
+          <span class="diff-line remove-line">{this.removedLines}</span>
+          <span class="copy-file-path" data-attr={this.componentStrings['copyFilePath']} onClick={this.copyDiffFilePath}></span>
+        </div>
+        <div class="x-diff-viewer-content"></div>
+      </div>
